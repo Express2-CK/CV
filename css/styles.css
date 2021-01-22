@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -17,10 +18,7 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
   font-family: 'Yusei Magic', sans-serif;
-}
-
-h5 {
-  color: #EAF6F6;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -28,45 +26,36 @@ h3 {
   color: #11999E;
 }
 
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 60px auto;
+}
+
 a {
   color: #11999E;
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .normal {
   font-weight: normal;
 }
+
 .service {
   text-decoration: underline;
 }
 
-.top-container {
-  background-color: #EAF6F6;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-  margin-top: 40px;
-}
-
-.bottom-container {
-  background-color: #66BFBF;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 60px auto 100px auto;
-  text-align: left ;
-  line-height: 1;
-}
-.skill-row2 {
-  width: 50%;
-  margin: 60px auto 100px auto;
-  text-align: right;
-  line-height: 1;
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0
 }
 
 .top-cloud {
@@ -81,7 +70,36 @@ a {
   bottom: 300px;
 }
 
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
 
+.middle-container {
+  margin: 60px 0;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 60px auto 80px auto;
+  text-align: left;
+  line-height: 1;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 60px auto 100px auto;
+  text-align: right;
+  line-height: 1;
+}
 
 .innovation-img {
   width: 25%;
@@ -101,39 +119,39 @@ a {
   margin-right: 30px;
 }
 
-.footer-link {
-  margin: 20px;
-  line-height: 2;
-}
-
 .btn {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   font-family: Verdana;
-   color: #FFFFFF;
-   font-size: 18px;
-   font-weight: 100;
-   padding: 16px;
-   background-color: #66BFBF;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-top: 20px;
-   margin-bottom: 20px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 12px;
+  background-color: #11cdd4;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
-   border: solid #3DF6D3 1px;
-   background: #3DF6D3;
-   background-image: -webkit-linear-gradient(top, #3DF6D3, #3DF6D3);
-   background-image: -moz-linear-gradient(top, #3DF6D3, #3DF6D3);
-   background-image: -ms-linear-gradient(top, #3DF6D3, #3DF6D3);
-   background-image: -o-linear-gradient(top, #3DF6D3, #3DF6D3);
-   background-image: -webkit-gradient(to bottom, #3DF6D3, #3DF6D3);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #3DF6D3;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
 }
